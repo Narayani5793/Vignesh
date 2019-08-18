@@ -5,5 +5,5 @@
       ping:
     - name: mysql instalttaion
       yum:
-       - name: mysql
-         state: present
+       name: mysql
+       state: present
