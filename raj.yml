@@ -3,3 +3,6 @@
    tasks:
     - name: ping 
       ping:
+      yum:
+       - name: mysql
+         state: present
